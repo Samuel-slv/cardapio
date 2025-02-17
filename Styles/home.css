@@ -50,11 +50,11 @@
     box-shadow: none;
 }
 
-#banner {
+#banner  {
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 70%;
+    width: 75%;
     z-index: 2;
 }
 

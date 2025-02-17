@@ -1,0 +1,145 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d477;
+    color: #fcfcfc;
+}
+
+header {
+    background-color: #024286;
+    color: rgb(222, 241, 10);
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    color: #000000;
+}
+
+h1, h2, h4, h3 {
+    margin: 0;
+    font-weight:600;
+    
+}
+
+h3{
+    color: #f3ff07;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 50px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #377fb6;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.inf{
+    text-align:left;
+    margin-bottom: 20px ;
+    background: #478bd3;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    background: rgb(2, 62, 129);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 10px 10px;
+    
+}
+
+.form-section {
+    background: #4e819e;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(rgb(0, 0, 0));
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #2acf46;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+strong{
+    color: #eeff07;
+}
+form button:hover {
+    background-color: #159aac;
+}
+
+footer {
+    background-color: #0b5ac2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
