@@ -3,12 +3,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8d477;
+    background-color: #fff9ea;
     color: #fcfcfc;
 }
 
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1170px) {
+    
+}
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+
+
 header {
-    background-color: #024286;
+    background-color: #ece52db1;
     color: rgb(222, 241, 10);
     text-align: center;
     padding: 20px;
