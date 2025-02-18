@@ -4,23 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff9ea;
-    color: #fcfcfc;
-}
-
-#navbar {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-@media screen and (max-width: 1170px) {
+    color: white;
     
 }
-    #nav_list,
-    #navbar .btn-default {
-        display: none;
-    }
+
+
 
 
 header {
