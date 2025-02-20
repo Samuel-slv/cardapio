@@ -10,11 +10,11 @@
 <body>
     <header>
         <nav id="navbar">
-            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+            <i class="fa-solid fa-burger" id="nav_logo"> Espetinho</i>
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                    <a href="/index.html">Início</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Cardápio</a>
@@ -25,25 +25,29 @@
             </ul>
             </nav>
         </header>
-       <section class="category">
-        <h2></h2> 
-        <div class="grid">
-            <div class="card">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0e/19/9b/46/espetos-da-casa.jpg" alt="" width="600px" height="600px">
-                </a>
-                <h3>Espetinhos e Pratos: Delícias da Nossa Casa!</h3>
-                <p>Conheça nossos espetinhos e pratos especiais, preparados com ingredientes frescos e de alta qualidade. Oferecemos uma ampla variedade de opções, desde os clássicos espetinhos de carne e frango até 
-     combinações exclusivas que prometem surpreender seu paladar. Cada prato é elaborado com carinho, garantindo sabores autênticos e irresistíveis. Seja para um almoço descontraído, um jantar especial ou um churrasco com amigos, temos a opção perfeita para cada ocasião. Venha nos visitar e descubra as delícias que farão sua refeição ainda mais memorável!</p>
-            </div>
+
+        
+      
             <section class="category">
-                <h2>Sabores</h2>
+                
                 <div class="grid">
                     <div class="card">
                         <img src="https://etanoiss.com.br/images/2022/06/28/espetinho-frango-com-bacon.png" alt="" width="400px">
-                        <h3>Espetinho de frango</h3>
+                        <h3>Espetinho de frango co bacon</h3>
                         <p>Experimente o irresistível frango com bacon, que une a suculência do peito de frango à crocância do bacon defumado. Cada pedaço é temperado e envolto em bacon, tornando-se dourado e saboroso durante o cozimento. Versátil e fácil de preparar, é ideal para grelhar, assar ou fritar, 
                             perfeito para jantares especiais ou churrascos. Encante seu paladar com essa combinação que conquistou a todos!
                             </p>
+
+                                <div class="dish-price">
+                                    <h4 > R$8,00</h4>
+                                </div>
+                            
+                            <div class="quantity-control">
+                                
+                                <button class="btn-minus">-</button>
+                                <input type="number" class="quantity" value="0" min="0" readonly>
+                                <button class="btn-plus">+</button>
+                            </div>
                 
                     </div>
                     <div class="card">
@@ -51,12 +55,32 @@
                         <h3>Espetinho de Carne</h3>
                         <p>Experimente o espetinho de carne, uma iguaria feita com cortes selecionados e temperos especiais. Grelhado à perfeição, cada pedaço oferece uma explosão
                             de sabor e suculência. Ideal para churrascos e festas, é uma opção versátil que encanta a todos. Venha saborear esse clássico que nunca sai de moda!</p>
+                           
+                            <div class="dish-price">
+                                <h4 > R$10,00</h4>
+                            </div>
+
+                            <div class="quantity-control">
+                                <button class="btn-minus">-</button>
+                                <input type="number" class="quantity" value="0" min="0" readonly>
+                                <button class="btn-plus">+</button>
+                            </div>
                     </div>
                     <div class="card">
                         <img src="https://kiespeto.com.br/site/wp-content/uploads/2016/08/toscana-IMG_7104.jpg" alt="" width="400px">
                         <h3>  Espetinho de Linguiça</h3>
                         <p>Delicie-se com o espetinho de linguiça, uma opção suculenta e cheia de sabor. Feito com linguiça artesanal, cada pedaço é grelhado até ficar dourado e crocante, proporcionando uma experiência deliciosa a cada mordida.
                             Perfeito para churrascos e festas, esse espetinho é uma escolha que agrada a todos. Venha experimentar essa iguaria que é sempre um sucesso!</p>
+                           
+                            <div class="dish-price">
+                                <h4 > R$8,00</h4>
+                            </div>
+                           
+                            <div class="quantity-control">
+                                <button class="btn-minus">-</button>
+                                <input type="number" class="quantity" value="0" min="0" readonly>
+                                <button class="btn-plus">+</button>
+                            </div>
                     </div>
                     <div class="card">
                         <img src="https://guiadacozinha.com.br/wp-content/uploads/2019/10/frango-assado-com-mandioca-e-bacon-41703.jpg" alt=""  width="400px">
@@ -64,6 +88,15 @@
                         <p>Experimente o irresistível frango com bacon acompanhado de mandioca, uma combinação que une a suculência do peito de frango e a crocância do bacon defumado.
                             Cada pedaço é grelhado até ficar dourado, enquanto a mandioca é cozida até a perfeição, oferecendo um contraste de texturas e sabores.
                             Ideal para jantares e churrascos, essa iguaria é uma escolha que encanta a todos. Venha saborear essa deliciosa experiência!</p>
+                            <div class="dish-price">
+                                <h4 > R$10,00</h4>
+                            </div>
+                           
+                            <div class="quantity-control">
+                                <button class="btn-minus">-</button>
+                                <input type="number" class="quantity" value="0" min="0" readonly>
+                                <button class="btn-plus">+</button>
+                            </div>
                     </div>
                     <div class="card">
                         <img src="https://obemdito.com.br/wp-content/uploads/2022/07/capa-da-materia-texas.jpeg" alt=""  width="">
@@ -72,11 +105,30 @@
                             grelhada com a maciez da mandioca cozida.Temperada com especiarias especiais e assada até dourar, a carne oferece um sabor delicioso,
                              enquanto a mandioca complementa perfeitamente a refeição. Ideal para churrascos e jantares especiais, 
                              essa iguaria vai encantar seu paladar e deixar você querendo mais!</p>
+                            
+                             <div class="dish-price">
+                                <h4 > R$12,00</h4>
+                            </div>
+                            
+                             <div class="quantity-control">
+                                <button class="btn-minus">-</button>
+                                <input type="number" class="quantity" value="0" min="0" readonly>
+                                <button class="btn-plus">+</button>
+                            </div> 
                     </div>
-                   
+                </section>
 
+
+               
            
-    <fooçter></foçoter>
+                    <footer> 
+                       <div class="footer-content">
+                           <p>&copy; Samuel Silva. Todos os direitos reservados.</p>
+                       </div>
+                    </footer>
+                    
+
+    <script src="/javascript/cardapio.js"></script>
     
 </body>
 </html>
