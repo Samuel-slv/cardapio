@@ -1,0 +1,98 @@
+/* Estilo geral do menu */
+#menu {
+    font-family: Arial, sans-serif;
+    padding:0 22px 20px;
+    background-color: #f8f8f8;
+}
+
+/* Títulos da seção */
+.section-title {
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.5em;
+    color: #181717;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos pratos */
+#dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dish {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 600px;
+    margin: 25px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.dish:hover {
+    transform: scale(1.05);
+}
+
+/* Imagem do prato */
+.dish-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Títulos e descrições dos pratos */
+.dish-title {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+.dish-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Preço e botão */
+.dish-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dish-price h4 {
+    font-size: 1.2em;
+    color: #e74c3c;
+}
+
+.btn-default {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-default:hover {
+    background-color: #2980b9;
+}
+
+/* Coração */
+.dish-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #e74c3c;
+    cursor: pointer;
+}

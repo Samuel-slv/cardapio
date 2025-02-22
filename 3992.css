@@ -1,0 +1,127 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: var(--color-primary-2);
+    padding: 10px 20px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#nav_list a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-default {
+    background-color: var(--color-primary-1);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos do CTA */
+#cta {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#cta_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Estilos do Menu */
+#menu {
+    padding: 20px;
+}
+
+#dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Estilos dos Pratos */
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: var(--color-neutral-0);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura fixa para desktop */
+}
+
+.dish img {
+    width: 100%; /* Imagem responsiva */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: var(--color-primary-2);
+    padding: 20px;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    gap: 20px;
+}
+
+/* Media Queries para Responsividade */
+@media screen and (max-width: 768px) {
+    #nav_list {
+        flex-direction: column; /* Muda a direção da lista de navegação */
+        align-items: center;
+    }
+
+    #cta_buttons {
+        flex-direction: column; /* Botões em coluna */
+    }
+
+    .dish {
+        width: 90%; /* Largura maior em telas menores */
+    }
+
+    #footer_items {
+        flex-direction: column; /* Itens do footer em coluna */
+        align-items: center; /* Centraliza os itens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column; /* Navbar em coluna */
+        align-items: flex-start; /* Alinha à esquerda */
+    }
+
+    #nav_list {
+        flex-direction: column; /* Lista de navegação em coluna */
+        gap: 10px; /* Espaçamento menor */
+    }
+
+    #cta {
+        padding: 30px 10px; /* Menos padding em telas pequenas */
+    }
+}

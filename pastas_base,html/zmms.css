@@ -73,9 +73,11 @@
     font-size: 1.2em;
     color: #e74c3c;
 }
-
+.fa-solid {
+    color: #e74c3c;
+}
 .btn-default {
-    background-color: #3498db;
+    background-color: #173b53;
     color: white;
     border: none;
     border-radius: 5px;
@@ -85,7 +87,7 @@
 }
 
 .btn-default:hover {
-    background-color: #2980b9;
+    background-color: #dcdcdc;
 }
 
 /* Coração */

@@ -1,21 +1,13 @@
 #menu {
-    
-        display: flex;
-        flex-wrap: wrap;  /* Permite que os itens quebrem para uma nova linha */
-        flex-direction: row; /* Garante que os itens fiquem lado a lado */
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        gap: 24px; /* Espaço entre os itens */
-    }
-    
-
-.links{
-    color: #030f1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 #dishes {
-    width: 120%;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 24px;
