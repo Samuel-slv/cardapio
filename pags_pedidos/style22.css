@@ -239,7 +239,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: #007BFF; /* Cor de fundo azul */
+    background-color: #2c7f56; /* Cor de fundo azul */
     color: white; /* Texto branco */
     border-radius: 5px;
     margin-bottom: 10px;
@@ -247,7 +247,7 @@ footer {
 }
 
 .category-header:hover {
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    background-color: #3e8de1; /* Cor de fundo ao passar o mouse */
 }
 
 .arrow {
