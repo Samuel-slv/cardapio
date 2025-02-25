@@ -67,7 +67,7 @@ function finalizeOrder() {
         }
     });
 
-    const phoneNumber = '5563981177066';
+    const phoneNumber = '5563992627240';
 
     const total = document.getElementById('total-price').innerText;
     orderDetails += `${total}\n`;
