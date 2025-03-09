@@ -233,7 +233,7 @@ footer {
 
 
 /*botões da bebidas*/
-.category-header {
+.category-header  {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -245,6 +245,7 @@ footer {
     margin-bottom: 10px;
     transition: background-color 0.3s ease; /* Transição suave */
 }
+
 
 .category-header:hover {
     background-color: #3e8de1; /* Cor de fundo ao passar o mouse */
@@ -294,3 +295,5 @@ footer {
     outline: none;
     box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
 }
+
+
