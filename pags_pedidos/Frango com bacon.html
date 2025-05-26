@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="Pedidos.css">
+  <title>pedidos</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <i class="fa-solid fa-burger" id="nav_logo"> Espetinho</i>
+
+      <ul id="nav_list">
+        <li class="nav-item active">
+          <a href="/index.html">Início</a>
+        </li>
+    </nav>
+  </header>
+
+
+
+
+
+  <section class="category">
+    <div class="grid">
+      <!-- Adicionado data-price para o prato principal -->
+      <div class="card" data-price="8.00">
+        <img src="https://etanoiss.com.br/images/2022/06/28/espetinho-frango-com-bacon.png"
+          alt="Espetinho de frango com bacon" width="400px">
+        <h3>Espetinho de frango com bacon</h3>
+        <p>
+          Experimente o irresistível frango com bacon, que une a suculência do peito de frango à crocância do bacon
+          defumado. Cada pedaço é temperado e envolto em bacon, tornando-se dourado e saboroso durante o cozimento.
+          Versátil e fácil de preparar, é ideal para grelhar, assar ou fritar,
+          perfeito para jantares especiais ou churrascos. Encante seu paladar com essa combinação que conquistou a
+          todos!
+        </p>
+        <div class="dish-price">
+          <h4>R$8,00</h4>
+        </div>
+        <div class="quantity-control">
+          <button class="btn-minus">-</button>
+          <input type="number" class="quantity" value="0" min="0" readonly>
+          <button class="btn-plus">+</button>
+        </div>
+        <br>
+        <!-- Cabeçalho do Acordeão de Bebidas -->
+        <section class="bebidas">
+          <div class="category-header" onclick="toggleCategory('bebidas-content')">
+            <h2>Bebidas</h2>
+            <span class="arrow" id="bebidas-arrow">▼</span>
+          </div>
+          <!-- Conteúdo das Bebidas (inicialmente escondido) -->
+          <div class="bebidas-content" id="bebidas-content" style="display: none;">
+            <ul class="bebidas-list">
+              <li class="item" data-price="8.00">
+                <span class="label">Coca-Cola - 2 litros</span>
+                <span class="price">R$ 8,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="4.00">
+                <span class="label">Coca-Cola - lata 350ml</span>
+                <span class="price">R$ 4,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="8.00">
+                <span class="label">Refrigerante Guaraná Antarctica - 2 litros</span>
+                <span class="price">R$ 8,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="4.00">
+                <span class="label">Refrigerante Guaraná Antarctica - lata 350ml</span>
+                <span class="price">R$ 4,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="5.00">
+                <span class="label">Suco Natural - Maracujá</span>
+                <span class="price">R$ 5,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Seção para Finalizar o Pedido -->
+        <section id="Finalizar-pedidos">
+          <div id="total-price">Total: R$ 0,00</div>
+          <button id="finalize-button">Finalizar Pedido</button>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="script22.js"></script>
+</body>
+
+</html>

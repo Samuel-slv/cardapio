@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="Pedidos.css">
+  <title>pedidos</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <i class="fa-solid fa-burger" id="nav_logo"> Espetinho</i>
+
+      <ul id="nav_list">
+        <li class="nav-item active">
+          <a href="/index.html">Início</a>
+        </li>
+    </nav>
+  </header>
+
+
+
+
+
+  <section class="category">
+    <div class="grid">
+      <!-- Adicionado data-price para o prato principal -->
+      <div class="card" data-price="8.00">
+        <img src="https://obemdito.com.br/wp-content/uploads/2022/07/capa-da-materia-texas.jpeg"
+          alt="Espetinho de frango com bacon" width="400px">
+        <h3>Espetinho de Carne com Mandioca</h3>
+        <p>
+          O espeto de carne com mandioca combina a suculência da carne grelhada com a maciez da mandioca cozida.
+          Temperada com especiarias, a carne é assada até dourar, criando um sabor delicioso.
+          Perfeito para churrascos e jantares especiais, vai encantar seu paladar e deixar você querer mais!
+        </p>
+        <div class="dish-price">
+          <h4>R$12,00</h4>
+        </div>
+        <div class="quantity-control">
+          <button class="btn-minus">-</button>
+          <input type="number" class="quantity" value="0" min="0" readonly>
+          <button class="btn-plus">+</button>
+        </div>
+        <br>
+        <!-- Cabeçalho do Acordeão de Bebidas -->
+        <section class="bebidas">
+          <div class="category-header" onclick="toggleCategory('bebidas-content')">
+            <h2>Bebidas</h2>
+            <span class="arrow" id="bebidas-arrow">▼</span>
+          </div>
+          <!-- Conteúdo das Bebidas (inicialmente escondido) -->
+          <div class="bebidas-content" id="bebidas-content" style="display: none;">
+            <ul class="bebidas-list">
+              <li class="item" data-price="8.00">
+                <span class="label">Coca-Cola - 2 litros</span>
+                <span class="price">R$ 8,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="4.00">
+                <span class="label">Coca-Cola - lata 350ml</span>
+                <span class="price">R$ 4,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="8.00">
+                <span class="label">Refrigerante Guaraná Antarctica - 2 litros</span>
+                <span class="price">R$ 8,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="4.00">
+                <span class="label">Refrigerante Guaraná Antarctica - lata 350ml</span>
+                <span class="price">R$ 4,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+              <li class="item" data-price="5.00">
+                <span class="label">Suco Natural - Maracujá</span>
+                <span class="price">R$ 5,00</span>
+                <div class="quantity-control">
+                  <button class="btn-minus">-</button>
+                  <input type="number" class="quantity" value="0" min="0" readonly>
+                  <button class="btn-plus">+</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- Seção para Finalizar o Pedido -->
+        <section id="Finalizar-pedidos">
+          <div id="total-price">Total: R$ 0,00</div>
+          <button id="finalize-button">Finalizar Pedido</button>
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <script src="script22.js"></script>
+</body>
+
+</html>
